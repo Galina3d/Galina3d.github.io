@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://twbs.docs.org.ua/favicon.ico">
+    <link href="css/style.css" rel="stylesheet" media="all">
+    <title>Сайт кабінету інформатики Львівського ліцею №2</title>
+<style media="screen">
+body {
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.bs-docs-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #888;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+#gallery {
+  position: relative;
+  padding-top: 50%;
+  -moz-user-select: none; user-select: none;
+}
+
+#gallery img {
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  max-width: 24.5%;
+  max-height: 49.5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: zoom-in;
+  transition: .2s;
+}
+#gallery img:nth-child(4n-2) {left: 37.5%;}
+#gallery img:nth-child(4n-1) {left: 62.5%;}
+#gallery img:nth-child(4n) {left: 87.5%;}
+#gallery img:nth-child(n+5) {top: 75%;}
+
+#gallery img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+
+#gallery img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  cursor: zoom-out;
+}
+</style>
+    <!-- CSS-ядро Bootstrap -->
+    <link href="https://twbs.docs.org.ua/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Теми Bootstrap -->
+    <link href="https://twbs.docs.org.ua/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- Це чисто для цілей налагодження. Вам не потрібно копіювати цих два рядки! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://twbs.docs.org.ua/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  </head>
+
+  <body role="document">
+
+    <!-- Фіксована навігаційна панель -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="kabinet.html">Про кабінет</a></li>
+            <li><a href="uchni.html">Учням</a></li>
+            <li><a href="uchyteli.html">Вчителям</a></li>
+            <li class="active"><a href="photo.html">Фотогалерея</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div id="gallery">
+      <img src="image/hk1.jpg" alt="" tabindex="0" />
+      <img src="image/hk2.jpg" alt="" tabindex="0" />
+      <img src="image/hk3.jpg" alt="" tabindex="0" />
+      <img src="image/hk4.jpg" alt="" tabindex="0" />
+      <img src="image/hk5.jpg" alt="" tabindex="0" />
+      <img src="image/hk6.jpg" alt="" tabindex="0" />
+      <img src="image/hk7.jpg" alt="" tabindex="0" />
+      <img src="image/hk8.jpg" alt="" tabindex="0" />
+      <div></div>
+    </div>
+
+    <footer class="bs-docs-footer" role="contentinfo">
+      <div class="container">
+        <!-- { % include social-buttons.html % } -->
+
+        <p>Ліцей №2 Львівської  міської ради <a href="http://lvschool2.org.ua/" target="_blank">lvschool2.org.ua</a> </p>
+        <p>Дизайн сайту: Телюк Галина</p>
+        <p>Адміністратор сайту: Телюк Галина</p>
+        <p>Тел. +38(000)000-00-00</p>
+        <p>Email: admin@lvschool2.org.ua</p>
+      </div>
+    </footer>
+    <!-- JavaScript-ядро Bootstrap
+    ================================================== -->
+    <!-- Розміщуйте підключення JavaScript в кінці документа щоб сторінки завантажувались швидше -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://twbs.docs.org.ua/dist/js/bootstrap.min.js"></script>
+    <script src="https://twbs.docs.org.ua/assets/js/docs.min.js"></script>
+    <!-- viewport для браузера IE10, це зроблено щоб виправити помилку для Surface/desktop Windows 8 -->
+    <script src="https://twbs.docs.org.ua/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
