@@ -1,0 +1,592 @@
+
+.center-img {
+display: block;
+margin: 0 auto;
+width: 522px;
+height: 140px;
+}
+
+ul#menu li { 
+display: inline-block;
+}
+
+#menu, #menu li {
+margin: 0;
+padding: 0;
+}
+#menu {
+max-width: 550px;
+margin: 0;
+text-align: center;
+}
+#menu li {
+display: inline-block;
+text-align: center;
+}
+#menu a {
+display: block;
+padding: 5px 15px;
+text-decoration: none;
+}
+
+.gif {
+display: block;
+margin: 0;
+width:  1000px;
+height: 500px;
+}
+
+.alaia {
+display: block;
+margin: 0 auto;
+width: 341px ;
+height: 512px; 
+}
+.alaia2 {
+text-decoration: none;
+text-align: center;
+font: 20pt avenir;
+color: black;
+}
+
+.celine {
+display: block;
+margin: 0 auto;
+width: 341px ;
+height: 512px; 
+}
+
+.celine2 {
+text-decoration: none;
+text-align: center;
+font: 20pt avenir;
+color: black;
+}
+
+.balenciaga {
+display: block;
+margin: 0 auto;
+width: 341px ;
+height: 512px; 
+}
+
+.balenciaga2 {
+text-decoration: none;
+text-align: center;
+font: 20pt avenir;
+color: black;
+}
+
+.lastcollections {
+text-decoration: none;
+text-align: left;
+font: 35pt avenir;
+color: black;
+}
+
+.gucci {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 35pt avenir;
+color: black;
+}
+
+.gucci1 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci2 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci3 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci4 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci5 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci6 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci7 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.gucci8 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 1220px; 
+}
+
+.headline1 {
+text-align: left;
+font: 45px avenir;
+color: black;
+text-decoration: none;
+}
+.prada {
+text-decoration: none;
+text-align: left;
+margin: 0;
+font: 35pt avenir;
+color: black;
+}
+
+.prada1 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada2 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada3 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada4 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada5 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada6 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada7 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.prada8 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.toc {
+    padding: 0 20px;
+    background: #FDFCFD;
+    display: block;
+    margin: 0;
+    text-align: left;   
+    }
+    ul#toc li { 
+display: inline-block;
+}
+
+#toc, #toc li {
+margin: 0;
+padding: 0;
+}
+#toc {
+max-width: 550px;
+margin: 0;
+text-align: leftr;
+}
+#toc li {
+display: inline-block;
+text-align: left;
+}
+#toc a {
+display: block;
+padding: 5px 15px;
+text-decoration: none;
+}
+.gucciG {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.pradaP {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.givenchyG {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.givenchy {
+text-decoration: none;
+text-align: left;
+margin: 0;
+font: 35pt avenir;
+color: black;
+}
+
+.givenchy1 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy2 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy3 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy4 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy5 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy6 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy7 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.givenchy8 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+ol {
+    list-style-type: none;
+   }
+.ggucci {
+font: 20pt avenir;
+color: black;
+}
+.yslY {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.ysl {
+text-decoration: none;
+text-align: left;
+margin: 0;
+font: 35pt avenir;
+color: black;
+}
+
+.ysl1 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl2 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl3 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl4 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl5 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl6 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl7 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+
+.ysl8 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 980px; 
+}
+.pprada {
+font: 20pt avenir;
+color: black;
+}
+.ggivenchy {
+font: 20pt avenir;
+color: black;
+}
+.yysl {
+font: 20pt avenir;
+color: black;
+}
+
+.yslY {
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.dg {
+text-decoration: none;
+text-align: left;
+margin: 0;
+font: 35pt avenir;
+color: black;
+}
+
+.dgD{
+text-decoration: none;
+text-align: left;
+margin 0;
+font: 25pt avenir;
+color: black;
+}
+
+.dg1 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg2 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg3 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg4 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg5 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg6 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg7 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+
+.dg8 {
+display: block;
+margin: 10%;
+width: 610px;
+height: 880px; 
+}
+.ddg {
+font: 20pt avenir;
+color: black;
+}
+
+
+.text1 {
+text-align: center;
+margin 0;
+font: 35pt avenir;
+color: black;
+}
+
+.textt {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.texttt {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.textttt {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.texttttt {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.text5 {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.text6 {
+text-align: left;
+margin 0;
+font: 20pt avenir;
+color: black;
+}
+
+.office {
+display: block;
+margin: 0;
+width: 1024px;
+height: 683px; 
+}
+
+table {
+   margin: 10%;
+    width: 1000;
+    border:0; 
+    color: #FDFCFD;
+}
+.voguebottom {
+font: 40pt avenir;
+color: black;
+}
+.voguebottom1 {
+    font: 40pt avenir;
+    color: black;
+    }
+.voguebottom2 {
+  font: 40pt avenir;
+        color: black;
+        }
+
+        .voguebottom3 {
+            font: 40pt avenir;
+            color: black;
+            }
