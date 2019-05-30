@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Veggie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: url('./img/header.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Setting constant height for carousel items */
+.carousel-item {
+  height: 300px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: url('./img/nat.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Veggie</h1>
+  <p> created by Sonya Dany.</p>
+</div>
+
+<div class="navbar">
+  <a href="file:///D:/10-А/Данилевич%20Софія/сайт/my%20site.html
+">Home</a>
+  <a href="https://www.bbc.com/ukrainian/features-46892614
+">About</a>
+  <a href="https://www.plantbasednews.org/posts
+">News</a>
+  <a href="https://www.vegansociety.com/contact-us
+" class="right">Contacts</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Про нас:</h2>
+    <div><img src="./img/happypeople.jpg"  style="width:100%"/></div>
+    <p>Журналістка The Independent <b>Олівія Піттер</b> – веган.перестала вживати продукти тваринного походження рік тому.За цей час, за її словами, вона пройшла весь шлях вегана-початківця: від боротьби зі скептиками до пошуків сиру, який не схожий на пластилін. </p>
+    <h3>More Text</h3>
+    <p><b>веганство</b> — це не просто система харчування, а конкретний стиль життя.</p>
+    <p><iframe width="360" height="290" src="https://www.youtube.com/embed/p1j-tTQ6Eiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h5><b>Вегани-гурмани:</b></h5>
+    <div><img src="./img/vegan.jpg"  style="height:270px;"></div><br>
+    <p> «Відмінна їжа - це як хороший секс. Чим більше є, тим більше хочеться». Гаель Грін.</p>
+    <h5><b>Хороші вегани:</b></h5>
+    <div><img src="./img/positive.jpg"  style="height:240px;"></div><br>
+    <p>«Веганство – це просто мій вибір. Ми повинні поважати вибір кожного, яким би він не був до тих пір, поки він не впливає на нас».</P>
+<h5><b>Vegan рецепти:</b></h5>
+<iframe width="360" height="290" src="https://www.youtube.com/embed/DYl3rBSiKbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><iframe width="360" height="290" src="https://www.youtube.com/embed/ldZC1hGV7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <h5><b>Вегани, які  люблять тварин:</b></h5>
+    <div><img src="./img/sheep.jpg"  style="height:245px;"></div>
+    <p>Краще я буду ходити голою, ніж в хутрі. Заради хутра тварин вбивають електричним струмом, топлять, б'ють і часто здирають шкуру з живих. Будь ласка, не носіть хутро.
+Не їжте їх, не одягайтеся в них.(Крістіан Серратос, 2009)</p>
+  </div>
+  <div class="main">
+    <h2>WELCOME TO VEGGIE</h2>
+    <h5>Веганство - система харчування чи стиль життя</h5>
+
+    <div id="veggieCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#veggieCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#veggieCarousel" data-slide-to="1"></li>
+        <li data-target="#veggieCarousel" data-slide-to="2"></li>
+        <li data-target="#veggieCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/slide1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/slide2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/slide3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/slide4.jpg" alt="Fourth slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#veggieCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#veggieCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <p><b>Веганство</b> (або веганізм) — це сувора форма вегетаріанства, що виключає споживання та використання продуктів та виробів, що пов'язані із убивством, а, також, експлуатацією тварин.Також, деякі вегани не споживають мед, оскільки бджолярі хоч і проявляють турботу про виживання та збереження вулика, проте, все ж змушені відбирати у бджіл мед, а іноді й вбивати окремих представників (мова йде про зайвих або невдалих маток, а, також, трутнів).</p>
+    <p>Люди стають вегетаріанцями з різних причин. Для декого є нестерпними страждання тварин, інші обирають здоровий спосіб життя. Хтось серйозно переймається проблемами екології і бореться за скорочення викидів парникових газів.
+
+Хоч би як не протестували любителі м'яса, вегетаріанство має численні переваги. Здається, чим більше людей відмовились би від м'яса, тим краще було би для всього світу. Втім, якщо раптом всі мешканці планети стануть переконаними вегетаріанцями, мільйони, якщо не мільярди, людей можуть сильно постраждати</p>
+<p><b>Вегантсво: у чому користь</b></p>
+<p>
+  <ul>
+ <li>Зниження ризику розвитку ракових захворювань (зокрема, раку товстої кишки). Справа в тому, що овочі є чудовим джерелом клітковини, що покращує функціонування травного тракту.</li>
+ <li>Підтримання рівня цукру у крові. По цій причині веганство рекомендоване людям, які схильні до розвитку діабету.</li>
+ <li>Хороші показники кров'яного тиску, що попереджує розвиток захворювань серцево-судинної системи.</li>
+ <li>Попередження розвитку гіпертонії та атеросклерозу. Ці хвороби викликані підвищеним рівнем холестерину, що у великій кількості міститься у їжі тваринного походження</li>
+ <li>Красота шкіри та волосся. Фрукти та овочі є багатим джерелом вітамінів, мінералів та антиоксидантів, необхідних для нормальної роботи усіх систем організму. До того ж, антиоксиданти, що містяться у рослинній їжі, виводять із організму шкідливі токсини та вільні радикали.</li>
+ <li>Нормалізація ваги.</li>
+</ul>
+</P>
+    <br>
+    <h2>Веганство: раціон харчування</h2>
+    <h5>Загалом, на сьогодні існує широкий вибір продуктів для веганів, включаючи різноманітні напівфабрикати. Веганські продукти, що продаються у багатьох супермаркетах, мають спеціальний знак — зображення соняшника.</h5>
+    <div class="slideshow-container">
+<div><img src="./img/food18.jpg"  style="height:270px;"><img src="./img/food1.jpg"  style="height:270px;"><img src="./img/food6.jpg"  style="height:270px;"><img src="./img/food16.jpg"  style="height:270px;"><img src="./img/food22.jpg"  style="height:270px;"><img src="./img/food3.jpg"  style="height:270px;"><img src="./img/food7.jpg"  style="height:270px;"><img src="./img/food9.jpg"  style="height:270px;"></div>
+    <p></p>
+    <p>Польський лікар-дієтолог Ханя Столинська-Федорович вже давно вживає тільки рослинну їжу.
+
+Вона підкреслює, що веганська дієта дійсно може застосовуватись на будь-якому етапі життя людини. Причому, це стосується не тільки спортсменів, але й вагітних жінок, тих, що годують груддю, літніх людей та дітей. Головне, аби дієта була збалансовано та не було нестачі певних продуктів.
+
+При цьому Столинська-Федорович не поділяє думки про білковий сніданок, яку виклала Марта Гуштаб. За її словами, вранці варто їсти більше вуглеводів.
+
+Дієтолог каже, що основою веганської дієти мають бути овочі. Половина з них – зеленого кольору, друга половина – помаранчевого, червоного і жовтого. Лікар додає, що овочі цих кольорів мають мікроелементи, які найбільше потрібні людині.</p>
+   <h5>Придивіться до поличок в супермаркетах</h5>
+   <p>Швидше за все ви оминали полиці із мигдалевим молоком, тофу або веганськими солодощами. Запитайте у консультанта, де знаходяться ці товари. У деяких магазинах частина товару вже маркована словом “Vegan”. У багатьох містах є окремі магазинчики із веганськими продуктами, де асортимент набагато ширший, тож не забудьте навідатися до них. А також не забувайте купувати більше різноманітних овочів, сезонних фруктів, ягід та багато зелені. </p>
+    <h5>Їжте більше зелені</h5>
+    <p>Здоровий веганський раціон має включати багато зелені. Привчайте себе до того, що петрушка, чи м’ята – то не просто прикраса на ресторанній страві. Саме зелень є рекордсменом за кількістю необхідних нам елементів.
+
+Наприклад, сушений тим’ян (чебрець) та м’ята мають більше заліза, ніж будь-які його тваринні джерела. Для кращого засвоєння поєднуйте його із вітаміном С. А чабер чи сушений кріп – це надійні джерела кальцію.</p>
+     <h5>Додавайте до страв прянощі</h5>
+     <p>Прянощі здатні перетворити майже будь-яку страву у маленький кулінарний шедевр. А приємним бонусом буде внесок до вашого здоров’я. Наприклад, куркумін з куркуми сприяє процесу аутофагії – очищенню наших клітин від накопиченого в них "сміття", а імбир чудово стимулює травлення.
+
+Для того щоб отримати від них найбільшу користь, попередньо розігрівайте прянощі в олії, а вже потім додавайте до страви.</p>
+      <h5>Їжте бобові</h5>
+      <p>Найбільша кількість білка міститься у бобових. Також не варто нехтувати горіхами, насінням та грибами (недаремно їх називають "лісовим м’ясом").
+
+Варто додати до вашого раціону сочевицю, маш, білу та червону квасолю, нут та зелений горошок, а також сою та продукти з неї, такі як тофу чи місо паста.</p>
+       <h5>Не забувайте про вітаміни</h5>
+       <p>Веганам додатково потрібен вітамін Б12.  Джерелом цього вітаміну є виключно тваринна їжа, тож вегани мають вживати його у формі спрею чи пігулок за встановленим стандартом: 2 рази на тиждень із дозуванням у 1000 мкг. Не варто чекати, поки станеться нестача, приймати Б12 слід одразу ж із відмовою від тваринної іжі.</p>
+        <h5>Насолоджуйтесь їжею</h5>
+        <p>Пам’ятайте, що здорова їжа – це не тільки користь для нашого тіла. Вона має приносити задоволення. Експериментуйте, шукайте нові смаки та поєднуйте їх. Насолоджуйтесь кожним шматочком. Добре і правильно приготована веганська страва – це чудовий баланс здоров’я та смаку. Просто спробуйте це.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <style>
+    .share-button-container{
+        text-align:center;
+        margin: 20px 0;
+        padding: 10px 0;
+        border-top: solid 1px #e4e4e4;
+        border-bottom: solid 1px #e4e4e4;
+    }
+
+    .share-button-container p{
+        margin:0 0 10px 0;
+        font-weight:700;
+    }
+
+    .share-button {
+        margin-left: 20px;
+    }
+
+    .share-button a{
+        text-decoration:none;
+    }
+
+    .share-button, .share-button .count{
+        display:inline-block;
+    }
+
+    .share-button .count, .share-button .share {
+        font-family:"Helvetica Neue";
+        font-weight:700;
+        text-decoration:none;
+        text-align:center;
+    }
+
+    .share-button .count {
+        background-color:#F1F3F6;
+        color:#333;
+        font-size:12px;
+        line-height:25px;
+        margin-left:4px;
+        text-transform:uppercase;
+        min-width:40px;
+    }
+
+    .share-button .share {
+        -webkit-border-radius:2px;
+        -moz-border-radius:2px;
+        border-radius:2px;
+        color:#FFF;
+        display:inline;
+        font-size:13px;
+        width:40px;
+        padding:4px 8px;
+    }
+
+    .share-button-twitter .share {
+        background-color:#00ABF0;
+    }
+
+    .share-button-facebook .share {
+        background-color:#3b5998;
+    }
+
+    .share-button-googleplus .share {
+        background-color:#F53424;
+    }
+
+    .share-button-twitter .share:active,.share-button-facebook .share:active,.share-button-googleplus .share:active {
+        background-color:#353535;
+    }
+
+    /* Responsive */
+    @media (max-width: 925px) {
+        .share-button .share{
+            font-size:15px;
+            padding: 8px 16px; /* Double the padding */
+        }
+
+        .share-button .count{
+            font-size:14px;
+            line-height: 32px;
+        }
+    }
+</style>
+<div class='share-button-container'>
+    <p>Сподобалось? Поділись!</p>
+    <div class='share-button share-button-twitter' data-share-url="http://htmlweb.ru">
+        <div class='box'>
+            <a href="https://twitter.com/share?url=http://htmlweb.ru&text=Static%20Buttons&via=Xafke" target='_blank'>
+                <span class='share'>Твітнути</span>
+                <span class='count'>0</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="share-button share-button-facebook" data-share-url="http://htmlweb.ru">
+        <div class="box">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://htmlweb.ru">
+                <span class='share'>Поділиитись в FaceBook</span>
+                <span class='count'>0</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    var StaticShareButtons = {
+        twitterButton: document.querySelector('.share-button-twitter'),
+        facebookButton: document.querySelector('.share-button-facebook'),
+
+        init: function(){
+            this.injectScript('http://urls.api.twitter.com/1/urls/count.json?url=' +
+                escape(this.twitterButton.dataset.shareUrl) + '&callback=' + 'StaticShareButtons.processTwitter');
+
+            this.injectScript('http://graph.facebook.com/?id='+
+                escape(this.facebookButton.dataset.shareUrl) +'&callback=StaticShareButtons.processFacebook');
+        },
+
+        injectScript: function(url){
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = url;
+            document.body.appendChild(script);
+        },
+
+        processTwitter: function(data){
+            if(data.count != undefined){
+                this.twitterButton.querySelector('.count').innerHTML = data.count;
+            }
+        },
+
+        processFacebook: function(data){
+            if(data.shares != undefined){
+                this.facebookButton.querySelector('.count').innerHTML = data.shares;
+            }
+        }
+    };
+    StaticShareButtons.init();
+</script>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS for veggie carousel -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>

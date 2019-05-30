@@ -1,0 +1,29 @@
+div {
+margin-left:35%;
+padding:1px 16px;
+height:1000px;
+}
+ul {
+  list-style-type: lower-latin;
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  background-color: #7047;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: #9010;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #3015;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #3016;
+  color: white;
+}
