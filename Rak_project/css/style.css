@@ -1,0 +1,211 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+  -moz-box-shadow: -1px 0px 41px #000000;
+	-webkit-box-shadow: -1px 0px 41px #000000;
+	box-shadow: -1px 0px 41px #000000;
+	width: 100% ;
+	height: 80%;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.icon-block:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+ body{
+	 background-image:url(https://t4.ftcdn.net/jpg/00/45/98/39/160_F_45983922_7wZg9bmz5EyG0Fv8JRBk7RUBs9HywzYu.jpg) ;
+	 
+	 
+	 
+ }
+ .logocircle {
+ 		position: relative;
+ 		left:-10%;
+ 		top:-60%;
+    width: 100px; 
+    height: 100px;
+    overflow: hidden;
+    background: ;
+    padding: 5px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+}
+.logocircle img {
+    display: block;
+    width:100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+		float: left;
+}
+.learn{
+	position: absolute;
+
+	font-size: 24px ;
+	float: center;
+	left: 50%;
+	margin-left: -150px; 
+}
+.registration{
+		text-align:right ;
+		font-size: 24px ;
+		padding-right:5% ;
+		padding-left:40% ;
+
+
+}
+.reg{
+		color:#990000;
+		text-decoration:none;
+}
+.reg:hover{
+		color:#FF0000;
+
+	}
+.reg, .reg:hover{
+		-webkit-transition:all.6s ease;
+		-moz-transition:all.6s ease;
+		-o-transition:all.6s ease;
+		-ms-transition:all.6s ease;
+		transition:all.6s ease;
+} 
+.darkgrey{
+	 	background-color:rgb(40,40,41);
+	 
+	 
+	 
+ }
+ .greytext{
+		color:#333;
+		font-weight: 400; 
+		font-size: 40px;
+    text-align: center;
+ }
+ .imgprog{
+		width: 100%;
+		height: 50%;
+
+ }
+ .imgprog img{
+		display:block;
+		margin:0 auto;
+		padding-top: 10% ;
+ }
+
+
+
+ 		display:block;
+		 margin:0 auto;
+
+
+
+
+
+
+/*social*/
+
+
+/* Style the Un-order list by setting its list-style to none */
+
+.social{
+
+
+
+}
+.social ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ */
+.social ul li {
+
+	position: relative;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.social ul li .fa {
+  color: #D8E2DC;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.social ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.social ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.social ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.social ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+
+
+/* whatsapp */
+.social ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.social ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+
+/* media queries */
+@media screen and(max-width:600px){
+	#bd{
+		width:100%;
+		
+	}
+	
+	
+}
