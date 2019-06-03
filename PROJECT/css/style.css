@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.filler{
+  margin-top: 55%;
+}
+.shadow1{
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+}
+.shadow2{
+  text-shadow: 1px 1px 2px #2b0e0e;
+  font-weight: 400;
+}
+.imageRound {
+border-radius: 50%;
+width: 480px;
+padding: 60px;
+
+
+}
+.imageRound:hover{
+  transition-duration: 0.2s;
+  filter: grayscale(50%) blur(5px) sepia(1) opacity(20) brightness(100%) contrast(100%) hue-rotate(320deg);
+-webkit-filter: grayscale(50%) blur(5px) sepia(1) opacity(20) brightness(100%) contrast(100%) hue-rotate(320deg);
+}
+
+.n_color{
+  background: #774843;
+}
+.l_menu_margin{
+  margin-bottom: 25%;
+}
+nav ul a,
+nav .brand-logo {
+  color: rgb(255, 240, 199);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.footercolor {
+  color:rgb(255, 240, 199);
+}
+.footercolor ul a {
+color: rgb(255, 240, 199);
+}
